@@ -93,4 +93,18 @@ P0-IDEA-HELO-0000000001 只是一个格式示例。你可以：
 凌晨 3 点 → 自动清理过期草稿
     ↓
 周六上午 → 自动深度分析 + 诊断报告
-你只做一件事：决定值得存什么。剩下的全部自动化 ️
+你只做一件事：决定值得存什么。剩下的全部自动化
+
+---
+
+## ✅ 证据链 · 🧭 溯源
+
+| 项 | 依据（可核验） |
+|---|---|
+| 交付物 | `km-v3.1-portable.zip`（72,106 bytes） |
+| 完整性 | SHA256 `70A5E6B3775A19B2D22350015C42634AB8253B57A315AC1D6DB673A564061B3A`（可自行 `sha256sum` / `Get-FileHash` 复核） |
+| 上游源码 | [academic-knowledge-manager](https://github.com/Whoeverknow/academic-knowledge-manager) —— 宪法/管线/诊断机制的完整源码仓库，本包为其便携发行版 |
+| 一键验证 | 见上文「测试一下」：提问 Hello World 条目 → 返回 `knowledge/2026/05.md` 即管线正常 |
+| 许可 | ⚠️ 仓库内暂无 `LICENSE` 文件；上游为 MIT，建议随包补充 LICENSE 以完成溯源 |
+
+🧭 关联仓库：[academic-knowledge-manager](https://github.com/Whoeverknow/academic-knowledge-manager) · [AgentSkill](https://github.com/Whoeverknow/AgentSkill) · [FinalAgentSkill](https://github.com/Whoeverknow/FinalAgentSkill)
